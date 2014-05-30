@@ -140,6 +140,8 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
     $ echo "Hola mundo" > archivo.txt
     $ cat archivo.txt
     $ wc -l archivo.txt
+    $ echo "Hola globo terraqueo" > archivo.txt
+    $ cat archivo.txt
     $ echo "Hola planeta" >> archivo.txt
     $ cat archivo.txt
     $ wc -l archivo.txt
