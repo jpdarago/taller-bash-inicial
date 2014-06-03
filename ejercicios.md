@@ -21,7 +21,7 @@ un prompt, no lo tiene que tipear). Anote que observa que pasa.
 ## Ejercicio 2
 
 Abra una terminal y tipee los siguientes comandos (el $ significa
-el prompt de la terminal, no lo tiene que tipear). 
+el prompt de la terminal, no lo tiene que tipear).
 Anote que observa que pasa
 
     $ mkdir ejercicios-bash-2
@@ -44,11 +44,15 @@ Abra una terminal y resuelva
 
 * Liste todos los archivos del directorio:
     * __/usr/bin__
+        * bonus points: sin usar cd (y sin estar parado en /usr/bin).
     * Padre de donde esta parado
     * Actual
     * Actual de una manera distinta a como lo hice anteriormente.
     * Su home
     * El directorio Documentos.
+
+* ¿Hay un comando para renombrar archivos?. Renombre la carpeta del ejercicio anterior a "mi-nueva-carpeta".
+
 
 ## Ejercicio 4
 
@@ -57,7 +61,7 @@ Abra un terminal y tipee lo siguiente:
     $ mkdir ejercicios-bash-4
     $ cd ejercicios-bash-4
 
-Luego, cree una estructura de directorios que 
+Luego, cree una estructura de directorios que
 cumpla lo que pide el siguiente ls
 
     $ mkdir ejercicios-bash-4
@@ -89,8 +93,8 @@ Por ultimo, vuelva a su home directory.
 ## Ejercicio 6
 
 Abra un terminal y tipee los siguientes comandos.
-    
-    $ mkdir ejercicios-bash-6 
+
+    $ mkdir ejercicios-bash-6
     $ cd archivo.txt
     $ emacs archivo.txt
 
@@ -103,8 +107,8 @@ Ahora tipee
 
     $ emacs
 
-Y apriete Alt-x y luego escriba "tetris" y apriete enter. 
-Cuando se aburra apriete Ctrl-x,Ctrl-c. 
+Y apriete Alt-x y luego escriba "tetris" y apriete enter.
+Cuando se aburra apriete Ctrl-x,Ctrl-c.
 
 Si todavia tiene ganas, tipee
 
@@ -170,15 +174,68 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 
     $ mkdir ejercicios-bash-10
     $ cd ejercicios-bash-10
-    $ wget -Oejercicio10bash.zip http://www.cubawiki.com.ar/ejercicio10bash.zip
-    $ ls 
-    $ unzip ejercicio10bash.zip
+    $ wget -Oejercicio10bash.zip http://www.cubawiki.com.ar/ejercicio10bash.tar.gz
     $ ls
+    $ tar zvfx ejercicio10bash.tar.gz
+    $ ls
+    $ man wget
 
-## Ejercicio 10 - Integrador
 
-En la misma carpeta que antes, resuelva:
+## Ejercicio __X__ - Conocer programas
 
-    * Liste todos los archivos del directorio actual que terminan en .txt
-    
-    ...
+Usando la subcarpeta __X__ del ejercicio anterior. SIN EJECUTARLOS, averigue que hacen los siguientes programas.
+
+    $ find carpeta -type f -name "*.txt" -print
+    $ curl -L http://cubawiki.com.ar/cursoBash.txt
+    $ yes
+    $ telnet towel.blinkenlights.nl
+
+Ejecute los comandos anteriores. ¿Estuvo en lo correcto?
+
+
+## Ejercicio 11 - Pipes
+
+Abra una terminal y tipee los siguientes comandos. Anote que observa
+
+    $ cat archivoNoOrdenado
+    $ sort archivoNoOrdenado | less
+    $ sort -n archivoNoOrdenado | less
+    $ man sort
+    $ sort -n archivoNoOrdenado | uniq | less
+    $ man uniq
+
+## Ejercicio 12 - Pipeline
+
+Escriba un pipeline basándose en el ejercicio anterior que cuente cuántos números distintos había en el archivo 'archivoNoOrdenado' (hint: use lo que aprendió en el ejercicio 8).
+
+## Ejercicio 13 - Programas
+
+Usando la carpeta que crearon en el ejercicio 10.
+
+* Correr el programa "dameSecreto" (está en el directorio actual) pasándole como parámetro tu nombre.
+* La clave del programa "dameSecreto" esta en el archivo "claveParaSecreto. Sin usar copy-paste, conocé el secreto.
+* Conocer el secreto del programa "dameOtroSecreto". No sabés la clave de este. ¿Qué se te ocurre que podés hacer?
+
+
+## Ejercicio _X_ - Signals
+
+* En la carpeta que descargó en el ejercicio _X_ hay un programa llamado programa "meCuelgo". Ejecútelo. Sorpresivamente, se colgó. Apriete la combinación de teclas ctrl + c. ¿Qué ve que ocurre?
+
+
+* Ponga a correr el programa "yoTambienMeCuelgo". Otra vez se colgó. Matalo.
+    * Apa. Esta vez no es tan fácil. Pruebe de ejecutar los siguientes comandos (en otra terminal)
+
+    $ ps aux
+    $ ps aux | grep yoTambienMeCuelgo
+
+¿cuál es el PID de su proceso? Ejecute
+
+    $ kill -9 __pid de yoTambienMeCuelgo__
+
+## Ejercicio _X_ - Permisos
+
+* Poner a correr el programa "permisos1". ¿Pudiste? ¿Cómo lo arreglás?
+* Suponete que no querés que otro usuario de la computadora pueda ver el secreto de "dameOtroSecreto". ¿Cómo lo protegerías? ¿Eso lo hace "totalmente" seguro? (pista: no).
+
+
+

@@ -9,6 +9,29 @@ Esbozo de la clase pre-ejercicios
 * ¿Qué es?
 * ¿Cuáles hay?
 * ¿Cuál vamos a usar? ¿Por qué?
+* Concepto de comando
+* man
+
+# Filesystem
+
+* Directorios y archivos
+* Raíz (`/`)
+* `/home/`
+* Archivos especiales
+	* .bashrc
+* . hidden files/dir
+
+
+# Procesos
+
+* Correr un proceso
+* Matar un proceso
+* top / htop
+* Pipes
+* $PATH
+* PID
+* ps / kill
+
 
 # Usuario
 
@@ -17,17 +40,9 @@ Esbozo de la clase pre-ejercicios
 * Permisos sobre archivos
 * root vs. el resto
 
-# Filesystem
-
-* Directorios y archivos
-* Raíz (`/`)
-* `/home/`
 
 # Prompt
 
-# `man`
-
 # ¿SSH?
-
-Si esto va, habría que contar cómo se accede desde afuera de la facu a
-los labos.
+* SCP
+* Milagro
