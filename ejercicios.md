@@ -53,7 +53,6 @@ Abra una terminal y resuelva
 
 * ¿Hay un comando para renombrar archivos?. Renombre la carpeta del ejercicio anterior a "mi-nueva-carpeta".
 
-
 ## Ejercicio 4
 
 Abra un terminal y tipee lo siguiente:
@@ -180,10 +179,17 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
     $ ls
     $ man wget
 
+## Ejercicio 11 - SSH
 
-## Ejercicio __X__ - Conocer programas
+1. Si es estudiante del DC, vaya a los admins a pedir cuenta de milagro.
+2. Si ya la tiene no es necesario.
+3. Después, haga lo siguiente:
+    3.1 Copie el archivo a su home en milagro.
+    3.2 Conectese a su cuenta de milagro y resuelva el ejercicio 10 desde ahi.
 
-Usando la subcarpeta __X__ del ejercicio anterior. SIN EJECUTARLOS, averigue que hacen los siguientes programas.
+## Ejercicio 12 - Conocer programas
+
+Usando la subcarpeta del ejercicio 10. SIN EJECUTARLOS, averigue que hacen los siguientes programas.
 
     $ find carpeta -type f -name "*.txt" -print
     $ curl -L http://cubawiki.com.ar/cursoBash.txt
@@ -192,8 +198,7 @@ Usando la subcarpeta __X__ del ejercicio anterior. SIN EJECUTARLOS, averigue que
 
 Ejecute los comandos anteriores. ¿Estuvo en lo correcto?
 
-
-## Ejercicio 11 - Pipes
+## Ejercicio 13 - Pipes
 
 Abra una terminal y tipee los siguientes comandos. Anote que observa
 
@@ -204,23 +209,21 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
     $ sort -n archivoNoOrdenado | uniq | less
     $ man uniq
 
-## Ejercicio 12 - Pipeline
+## Ejercicio 14 - Pipeline
 
 Escriba un pipeline basándose en el ejercicio anterior que cuente cuántos números distintos había en el archivo 'archivoNoOrdenado' (hint: use lo que aprendió en el ejercicio 8).
 
-## Ejercicio 13 - Programas
+## Ejercicio 15 - Programas
 
 Usando la carpeta que crearon en el ejercicio 10.
 
 * Correr el programa "dameSecreto" (está en el directorio actual) pasándole como parámetro tu nombre.
-* La clave del programa "dameSecreto" esta en el archivo "claveParaSecreto. Sin usar copy-paste, conocé el secreto.
+* La clave del programa "dameSecreto" esta en el archivo "claveParaSecreto". Sin usar copy-paste, conocé el secreto.
 * Conocer el secreto del programa "dameOtroSecreto". No sabés la clave de este. ¿Qué se te ocurre que podés hacer?
 
-
-## Ejercicio _X_ - Signals
+## Ejercicio 16 - Signals
 
 * En la carpeta que descargó en el ejercicio _X_ hay un programa llamado programa "meCuelgo". Ejecútelo. Sorpresivamente, se colgó. Apriete la combinación de teclas ctrl + c. ¿Qué ve que ocurre?
-
 
 * Ponga a correr el programa "yoTambienMeCuelgo". Otra vez se colgó. Matalo.
     * Apa. Esta vez no es tan fácil. Pruebe de ejecutar los siguientes comandos (en otra terminal)
@@ -232,10 +235,7 @@ Usando la carpeta que crearon en el ejercicio 10.
 
     $ kill -9 __pid de yoTambienMeCuelgo__
 
-## Ejercicio _X_ - Permisos
+## Ejercicio 13 - Permisos
 
 * Poner a correr el programa "permisos1". ¿Pudiste? ¿Cómo lo arreglás?
 * Suponete que no querés que otro usuario de la computadora pueda ver el secreto de "dameOtroSecreto". ¿Cómo lo protegerías? ¿Eso lo hace "totalmente" seguro? (pista: no).
-
-
-
