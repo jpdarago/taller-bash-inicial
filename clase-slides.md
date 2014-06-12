@@ -16,7 +16,7 @@
 
 ## ¿Que es la terminal?
 
-![Nuestra nueva amiga](images/terminal.jpg)
+![](images/terminal.jpg)
 
 ## ¿Que es la terminal?
 
