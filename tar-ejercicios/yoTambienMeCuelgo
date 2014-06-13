@@ -6,6 +6,8 @@ nuhuh () {
 
 trap nuhuh SIGINT
 
+trap nuhuh SIGTSTP
+
 while true
 do
     sleep 1
