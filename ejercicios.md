@@ -182,6 +182,8 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 
 ## Ejercicio 11 - SSH
 
+Usando la carpeta que creo en el ejercicio 10
+
 1. Si es estudiante del DC, vaya a los admins a pedir cuenta de milagro.
 2. Si ya la tiene no es necesario.
 3. Después, haga lo siguiente:
@@ -192,9 +194,8 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 
 ## Ejercicio 12 - Conocer programas
 
-Usando la subcarpeta del ejercicio 10. SIN EJECUTARLOS NI GOOGLEAR, intente 
-imaginarse 
-que hacen los siguientes programas.
+Usando la carpeta que creo en el ejercicio 10. SIN EJECUTARLOS NI GOOGLEAR, intente 
+imaginarse que hacen los siguientes programas.
 
     $ find carpeta -type f -name "*.txt" -print
     $ curl -L http://cubawiki.com.ar/cursoBash.txt
@@ -205,7 +206,7 @@ Ejecute los comandos anteriores. ¿Estuvo en lo correcto?
 
 ## Ejercicio 13 - Pipes
 
-Abra una terminal y tipee los siguientes comandos. Anote que observa
+Abra una terminal, vaya a la carpeta que creo en el ejercicio 10 y tipee los siguientes comandos. Anote que observa
 
     $ cat archivoNoOrdenado
     $ sort archivoNoOrdenado | less
@@ -232,7 +233,7 @@ este. ¿Qué se te ocurre que podés hacer?
 
 ## Ejercicio 16 - Signals
 
-* En la carpeta que descargó en el ejercicio _X_ hay un programa llamado 
+* En la carpeta que descargó en el ejercicio 10 hay un programa llamado 
 programa "meCuelgo". Ejecútelo. Sorpresivamente, se colgó. Apriete la 
 combinación de teclas ctrl + c. ¿Qué ve que ocurre?
 
@@ -252,6 +253,8 @@ comandos (en otra terminal)
 ~~~~~~~~~~~
 
 ## Ejercicio 17 - Permisos
+
+Usando la carpeta que creo en el ejercicio 10.
 
 * Poner a correr el programa "permisos1". ¿Pudiste? ¿Cómo lo arreglás?
 * Suponete que no querés que otro usuario de la computadora pueda ver el 

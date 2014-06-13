@@ -7,7 +7,7 @@ ejercicios.tex: ejercicios.md
 
 clase-slides.pdf: clase-slides.md Makefile header.tex
 	~/.cabal/bin/pandoc --slide-level=2 --toc -H header.tex --listings\
-		-V theme:Warsaw -V colortheme:crane -i\
+		-V theme:Berlin -V colortheme:lily -i\
 		-s -t beamer -f markdown -o $@ $<
 
 clean:
