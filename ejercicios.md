@@ -51,7 +51,8 @@ Abra una terminal y resuelva
     * Su home
     * El directorio Documentos.
 
-* ¿Hay un comando para renombrar archivos?. Renombre la carpeta del ejercicio anterior a "mi-nueva-carpeta".
+* ¿Hay un comando para renombrar archivos?. Renombre la carpeta del ejercicio 
+anterior a "mi-nueva-carpeta".
 
 ## Ejercicio 4
 
@@ -173,9 +174,9 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 
     $ mkdir ejercicios-bash-10
     $ cd ejercicios-bash-10
-    $ wget -Oejercicio10bash.zip http://www.cubawiki.com.ar/ejercicio10bash.tar.gz
+    $ wget http://www.cubawiki.com.ar/tallerBash.tar.gz
     $ ls
-    $ tar zvfx ejercicio10bash.tar.gz
+    $ tar zvfx tallerBash.tar.gz
     $ ls
     $ man wget
 
@@ -184,12 +185,15 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 1. Si es estudiante del DC, vaya a los admins a pedir cuenta de milagro.
 2. Si ya la tiene no es necesario.
 3. Después, haga lo siguiente:
-    3.1 Copie el archivo a su home en milagro.
-    3.2 Conectese a su cuenta de milagro y resuelva el ejercicio 10 desde ahi.
+    1. Copie el archivo a su home en milagro.
+    2. Conectese a su cuenta de milagro
+        1. Conectese a otra maquina (ejemplo 10.2.4.8)
+        2. Resuelva el ejercicio 10 desde ahi.
 
 ## Ejercicio 12 - Conocer programas
 
-Usando la subcarpeta del ejercicio 10. SIN EJECUTARLOS NI GOOGLEAR, intente imaginarse 
+Usando la subcarpeta del ejercicio 10. SIN EJECUTARLOS NI GOOGLEAR, intente 
+imaginarse 
 que hacen los siguientes programas.
 
     $ find carpeta -type f -name "*.txt" -print
@@ -212,31 +216,44 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 
 ## Ejercicio 14 - Pipeline
 
-Escriba un pipeline basándose en el ejercicio anterior que cuente cuántos números distintos había en el archivo 'archivoNoOrdenado' (hint: use lo que aprendió en el ejercicio 8).
+Escriba un pipeline basándose en el ejercicio anterior que cuente cuántos 
+números distintos había en el archivo 'archivoNoOrdenado' (hint: use lo que 
+aprendió en el ejercicio 8).
 
 ## Ejercicio 15 - Programas
 
 Usando la carpeta que crearon en el ejercicio 10.
 
 * Correr el programa "dameSecreto" (está en el directorio actual).
-* La clave del programa "dameSecreto" esta en el archivo "claveParaSecreto". Sin usar copy-paste, conocé el secreto.
-* Conocer el secreto del programa "dameOtroSecreto". No sabés la clave de este. ¿Qué se te ocurre que podés hacer?
+* La clave del programa "dameSecreto" esta en el archivo "claveParaSecreto". 
+Sin usar copy-paste, conocé el secreto.
+* Conocer el secreto del programa "dameOtroSecreto". No sabés la clave de 
+este. ¿Qué se te ocurre que podés hacer?
 
 ## Ejercicio 16 - Signals
 
-* En la carpeta que descargó en el ejercicio _X_ hay un programa llamado programa "meCuelgo". Ejecútelo. Sorpresivamente, se colgó. Apriete la combinación de teclas ctrl + c. ¿Qué ve que ocurre?
+* En la carpeta que descargó en el ejercicio _X_ hay un programa llamado 
+programa "meCuelgo". Ejecútelo. Sorpresivamente, se colgó. Apriete la 
+combinación de teclas ctrl + c. ¿Qué ve que ocurre?
 
 * Ponga a correr el programa "yoTambienMeCuelgo". Otra vez se colgó. Matalo.
-    * Apa. Esta vez no es tan fácil. Pruebe de ejecutar los siguientes comandos (en otra terminal)
+Apa. Esta vez no es tan fácil. Pruebe de ejecutar los siguientes 
+comandos (en otra terminal)
 
+~~~~~~~~~~~
     $ ps aux
     $ ps aux | grep yoTambienMeCuelgo
+~~~~~~~~~~~
 
-¿cuál es el PID de su proceso? Ejecute
+* ¿cuál es el PID de su proceso? Ejecute
 
+~~~~~~~~~~~
     $ kill -9 __pid de yoTambienMeCuelgo__
+~~~~~~~~~~~
 
-## Ejercicio 13 - Permisos
+## Ejercicio 17 - Permisos
 
 * Poner a correr el programa "permisos1". ¿Pudiste? ¿Cómo lo arreglás?
-* Suponete que no querés que otro usuario de la computadora pueda ver el secreto de "dameOtroSecreto". ¿Cómo lo protegerías? ¿Eso lo hace "totalmente" seguro? (pista: no).
+* Suponete que no querés que otro usuario de la computadora pueda ver el 
+secreto de "dameOtroSecreto". ¿Cómo lo protegerías? ¿Eso lo hace 
+"totalmente" seguro? (pista: no).

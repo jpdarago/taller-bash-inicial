@@ -1,9 +1,7 @@
 .PHONY: clean
 
 clean:
-	rm -rf ejercicio10bash.tar.gz
+	rm -rf tallerBash.tar.gz
 
 all:
-	tar zcvf ejercicio10bash.tar.gz * --exclude="*.c"
-
-
+	tar zcvf tallerBash.tar.gz * --exclude="*.c"
