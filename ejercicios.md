@@ -189,7 +189,8 @@ Abra una terminal y tipee los siguientes comandos. Anote que observa
 
 ## Ejercicio 12 - Conocer programas
 
-Usando la subcarpeta del ejercicio 10. SIN EJECUTARLOS, averigue que hacen los siguientes programas.
+Usando la subcarpeta del ejercicio 10. SIN EJECUTARLOS NI GOOGLEAR, intente imaginarse 
+que hacen los siguientes programas.
 
     $ find carpeta -type f -name "*.txt" -print
     $ curl -L http://cubawiki.com.ar/cursoBash.txt
@@ -217,7 +218,7 @@ Escriba un pipeline basándose en el ejercicio anterior que cuente cuántos núm
 
 Usando la carpeta que crearon en el ejercicio 10.
 
-* Correr el programa "dameSecreto" (está en el directorio actual) pasándole como parámetro tu nombre.
+* Correr el programa "dameSecreto" (está en el directorio actual).
 * La clave del programa "dameSecreto" esta en el archivo "claveParaSecreto". Sin usar copy-paste, conocé el secreto.
 * Conocer el secreto del programa "dameOtroSecreto". No sabés la clave de este. ¿Qué se te ocurre que podés hacer?
 
