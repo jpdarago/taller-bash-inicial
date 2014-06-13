@@ -1,5 +1,5 @@
 % Taller de Bash Inicial
-% Juan Pablo Darago - Julian Sackmann
+% Juan Pablo Darago - Julian Sackmann - Pablo Antonio
 % \today
 
 # Introducción
