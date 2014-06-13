@@ -174,7 +174,7 @@
 * No estan subidos a ningun lado:
     * ¡Tienen que copiar los comandos a mano!
 * Para algunos ejercicios van a necesitar un zip de cubawiki.
-    * Cualquier cosa este es el link: __PONER EL LINK__.
+    * Cualquier cosa este es el link: http://cubawiki.com.ar/tallerBash.tar.gz
 
 ## Pedir ayuda:
 * Si necesitan ayuda pueden:
