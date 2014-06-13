@@ -189,8 +189,11 @@
 ![](images/arbitroTurbio.jpg)
 
 ## Pedir ayuda:
-![](images/nosotros.png)
-
+* Preguntarnos a nosotros!
+    * O a cualquiera de los chicos que generosamente se ofrecieron a ayudarnos.
+* Aunque no sabemos tanto como Google...
+* ...ni como las man pages...
+* ...pero seguro que dirigimos fútbol mejor que Nishimura.
 
 ## A trabajar
 * ¡Arranquemos!
