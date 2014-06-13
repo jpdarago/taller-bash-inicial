@@ -7,20 +7,26 @@
 ## ¡Bienvenidos!
 
 * Hoy vamos a dar los primeros pasos con la terminal.
-* Marco: Talleres de automatización.
-    * Reducir tiempo.
-    * Reducir esfuerzo.
-    * Incrementar productividad.
+* Marco: Talleres de "cosas útiles"
+    * ComCom!
+    * __Com__isión de __Com__putadores.
 * Primer paso: aprender a usar la consola.
     * Olvidarnos de la GUI por un rato.
+
+## ¿Qué es la terminal?
+
+* El coso negro con letras verdes.
+
+## ¿Qué es la terminal?
+
+![](images/matrix.jpg)
 
 ## ¿Que es la terminal?
 
 ![](images/terminal.jpg)
 
 ## ¿Que es la terminal?
-
-* Antes de los manejadores de ventanas, existia la terminal. 
+* Antes de los manejadores de ventanas, existia la terminal.
 * Interprete de comandos.
     * Recibir una linea que dice que programa correr y como.
     * Correr ese programa.
@@ -28,16 +34,28 @@
     * A veces parte del sistema operativo (DOS).
     * ...Idealmente no (UNIX).
 
+## Y ahora el que habla se siente
+
+![](images/old.jpg)
+
+## Motivación
+
+* Vamos a hacer una mini-encuesta.
+
+## Motivación
+* ¿Por qué vamos a ver la terminal si puedo hacer lo mismo con el mouse?
+    * Porque usar el mouse es __lento__.
+
 ## ¿Para que sirve la terminal?
 
 * La terminal brilla en combinar comandos.
     * "Programs should do one thing and one thing only" - Unix Philosophy.
     * Juntarlos para lograr lo que queremos.
 * Juntar comandos en _scripts_.
-    * Una tarea es ahora instantanea y repetible.
+    * Una tarea es ahora instántanea y repetible.
     * Documentar como se hace una cierta cosa.
 
-## ¿En donde corre la terminal?
+## ¿En dónde corre la terminal?
 
 * La terminal necesita programas para correr.
 * Necesita un sistema operativo para proveer a los programas.
@@ -51,7 +69,7 @@
 ## ¿Que terminales hay?
 
 * Al ser un programa, hay muchas variantes.
-    * Ejemplos: sh, tcsh, csh, ksh, bash, zhs, ...
+    * Ejemplos: sh, bash, zsh, fish, tcsh, csh, ksh, ...
     * Nosotros vamos a usar bash.
     * Prueben zsh si tienen ganas.
 * Variantes:
@@ -65,11 +83,13 @@
 
 ## ¡Empecemos!
 
-* Vamos a usar Bash en Linux, pero es facilmente adaptable a:
-    * Zsh en Mac OSX, Bash en BSD, etc. etc.
+* Vamos a usar Bash: es un excelente promedio entre:
+    * Masividad (viene preinstalado en casi todos lados: Ubuntu, Debian, OS X).
+    * Funcionalidad
 * No es tan facil de adaptar para PowerShell o Cygwin.
+    * Pero [babun https://github.com/babun/babun] hace maravillas
 * Primero la presentamos y despues vamos a ver conceptos.
-* Una ultima cosa: _man_.
+* Una última cosa: _man_.
 
 ## Demo inicial
 
@@ -87,6 +107,8 @@
 * Algunos archivos por defecto son ocultos.
     * Todo lo que empiece con "."
 * ¡DEMO!
+
+<!-- Touch > >> cat more less echo grep -->
 
 ## _Procesos_
 
@@ -115,20 +137,6 @@
 * Los permisos con _chmod_.
 * ¡DEMO!
 
-## _Maquinas remotas_
-
-* Podemos conectarnos a maquinas externas.
-* Usando para eso _ssh_ (Secure Shell).
-    * Nuestro programa _ssh_ habla con otro programa (_sshd_) en
-    la otra maquina que interpreta los comandos.
-    * Simplemente ejecuta _bash_ y manda las cosas por la red.
-    * Encriptado y muy seguro: no pueden mirar lo que hacemos.
-* Pueden conectarse a las maquinas de los labos desde afuera con _ssh_.
-    * Usando el servidor _milagro_. ¡Pidan cuenta a los admins!
-    * ¡DEMO!
-* También pueden copiar archivos por SCP.
-    * ¡DEMO!
-
 ## _Editores_
 
 * Hay editores de texto solo para la terminal.
@@ -138,16 +146,51 @@
     * _vim_: Modal, muy productivo, curva de aprendizaje media.
     * _emacs_: Muy poderoso, curva de aprendizaje alta.
 
+## _Maquinas remotas_
+
+* Podemos conectarnos a maquinas externas.
+* Usando para eso _ssh_ (Secure Shell).
+    * Nuestro programa _ssh_ habla con otro programa (_sshd_) en
+    la otra maquina que interpreta los comandos.
+    * Simplemente ejecuta _bash_ y manda las cosas por la red.
+    * Encriptado y muy seguro: no pueden mirar lo que hacemos.
+* Pueden conectarse a las maquinas de los labos desde afuera con _ssh_.
+    * Usando el servidor _milagro_.
+    * ¡DEMO!
+* También pueden copiar archivos por SCP.
+    * ¡DEMO!
+
+## Un par de tips
+* Aliasing
+* TMUX
+* _man pages_
+    * Ya se que lo dijimos, pero ¡posta es importante!
+
 # Bueno, ¡A practicar!
 
 ## Ejercitación.
 
 * Ahora vamos a hacer ejercicios prácticos.
-* No estan subidos a ningun lado:  
+* No estan subidos a ningun lado:
     * ¡Tienen que copiar los comandos a mano!
-    * Vamos a estar aca para ayudarlos :)
-* Pueden usar _Google_ y _man_ ante cualquier duda.
-* ...o preguntarnos a nosotros.
 * Para algunos ejercicios van a necesitar un zip de cubawiki.
     * Cualquier cosa este es el link: __PONER EL LINK__.
+
+## Pedir ayuda:
+* Si necesitan ayuda pueden:
+
+## Pedir ayuda:
+![](images/manPages.png)
+
+## Pedir ayuda:
+![](images/google.jpg)
+
+## Pedir ayuda:
+![](images/arbitroTurbio.jpg)
+
+## Pedir ayuda:
+![](images/nosotros.png)
+
+
+## A trabajar
 * ¡Arranquemos!
